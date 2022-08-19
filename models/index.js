@@ -1,9 +1,9 @@
-const reactionSchema = require('./Reaction')
-const thoughtModel = require('./Thought')
-const userModel = require('./User')
+const Reaction = require('./Reaction')
+const Thought = require('./Thought')
+const User = require('./User')
 
 module.exports = {
-    reactionSchema,
-    thoughtModel,
-    userModel,
+    Reaction,
+    Thought,
+    User,
 }
