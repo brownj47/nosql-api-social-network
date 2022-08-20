@@ -1,4 +1,4 @@
-# Social Netowrk API with NoSQL
+# Social Network API with NoSQL
 
 ## Description
 
@@ -14,17 +14,17 @@ In this project, I wanted to expand my understanding of database technologies. I
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To get started with the project, follow the following guide:
+
+1. Install MongoDB following the instructions for your OS found here: https://www.mongodb.com/docs/manual/installation/
+2. Clone or copy the repo.
+3. Run npm i to get all necessary packages.
+4. Run node index.js to start a server.
+5. Build insomnia testing routes to test the server. 
 
 ## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+Below is a sample route for testing the API:
+![A screenshot of the application being tested in insomnia](./assets/images/insomniatest.png)
 
 ## License
 MIT License
