@@ -23,6 +23,8 @@ To get started with the project, follow the following guide:
 5. Build insomnia testing routes to test the server. 
 
 ## Usage
+See this link for a video walkthrough of the API: https://drive.google.com/file/d/1atmr0oC4_Qh0-Q_H0XfvMqjl4kV7b2so/view
+
 Below is a sample route for testing the API:
 ![A screenshot of the application being tested in insomnia](./assets/images/insomniatest.png)
 
