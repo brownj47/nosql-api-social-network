@@ -14,6 +14,10 @@ reactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
+            get: function(createdAt){
+                const datify = createdAt.toDateString()
+                return datify
+            }
         }
     },
     {
