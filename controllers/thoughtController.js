@@ -11,7 +11,6 @@ module.exports = {
         }).then(
             (thought) => {
                 if (thought) {
-                    console.log(thought[0].createdAt)
                     return res.json(thought)
                 }
                 return res.status(404).json({ message: 'No thought with that ID' })
